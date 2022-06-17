@@ -1,13 +1,605 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+  max-width: 100%;
+  margin: 0% ;
+  padding: 0% ;
+  font-family: sans-serif;
+  background: #eee;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.main-header{
+  background-color:#ffbf00;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-links ul,
+.cright-links ul{
+  display: flex;
+}
+
+.center-links ul li,
+.cright-links ul li{
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.center-links ul li a,
+.cright-links ul li a{
+  text-decoration: none;
+  color:  white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.center-links ul li a:hover{
+  color: black;
+  font-weight: bold;
+  margin-bottom: 1px solid;
+}
+
+.cright-links ul li a{
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: black;
+}
+
+.logo{
+  color: white;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.active{
+  color: black !important;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.container{
+  width: 100% !important;
+}
+.main-image img{
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+.result-bar{
+  display: flex;
+  background: #434343;
+  color: white;
+  text-transform: uppercase;
+  justify-content: space-around;
+  text-align: center;
+  height: 60px;
+  max-width: 100%;
+  padding-left: 50%;
+  padding-right: 50%;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+.result-bar img{
+margin-top: 5px;
+  width: 30px;
+}
+
+.result-bar p{
+  width: 90px;
+  font-size: 12px;
+  margin-top: 2px
+}
+
+.result-bar a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.result-bar .az{
+  margin-top: 9px;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 10px
+}
+
+/* side module top leagues */
+
+.top-leagues{
+  border: 1px solid black;
+  margin-right: 5px;
+}
+
+.list-items a{
+  text-decoration: none;
+  background-color: #eee;
+  margin-bottom: 1px;
+  color: black;
+  padding: 0px 0px 5px 10px;
+  border-bottom: 1px solid black;
+}
+
+.list-items{
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header{
+  color: black;
+  background-color: #F0C403;
+  padding: 0.2px 0px 0px 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.list-header p{
+  padding-bottom: 10px;
+  margin-bottom: 0%;
+}
+
+
+.avatar img{
+  width: 20px;
+  margin-top: 5px;
+}
+
+/* CENTER CONTENT MODULES*/
+
+.content{
+  min-width: 100% !important;
+  justify-content: center;
+  display: flex;
+}
+
+.side-module{
+  min-width: 20%;
+}
+
+.verticle-module{
+  min-width: 70%;
+}
+
+.footer{
+ 
+  margin-top: 10px;
+  background-color: #ffbf00;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links ul{
+  list-style: none;
+  text-transform: capitalize;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.footer-social-inks{
+  display: flex;
+}
+
+.social-links img{
+  width: 30px;
+  margin-right: 10px;
+}
+
+.whatsapp{
+  width: 20px;
+}
+
+.plus img{
+  width: 150px;
+}
+
+/*  RESULT CHART */
+
+.result-chart{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  min-width: 100%;
+  max-width: 100%;
+  justify-content: space-around;
+}
+.result-chart-header{
+  background-color: #ffbf00;
+  padding: 10px 0px 10px 10px;
+  font-weight: bold;
+}
+
+.result-chart-subheader{
+  background-color: #434343;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 0;
+  font-size: 14px;
+  width: 100%;
+}
+
+.result-chart-subheader img{
+  width: 15px;
+}
+
+.result-chart-subheader div{
+  display: flex;
+  margin-right: 15px;
+  padding: 5px 0px;
+}
+
+.result-chart-subheader a{
+  text-decoration: none;
+  color: white;
+}
+
+/* RESULT CHART CARD MODULE */
+
+.result-chart-card{
+  background-color: white;
+  display: flex;
+  font-size: 13px;
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+  min-width: 100%;
+  max-width: 100%;
+  /* justify-content: space-between; */
+  justify-content: flex-start;
+}
+
+.partial-card-first{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  min-width: 35%;
+}
+
+.partial-card-up{
+  display: flex;
+  margin-top: -10px;
+  align-items: center;
+}
+
+.partial-card-up p{
+  margin-right: 5px;
+}
+
+.partial-card-down{
+  margin-left: 10px;
+  line-height: 5px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.highlight{
+  color: darkorange;
+  margin-right: 10px;
+}
+
+.partial-card-second{
+  display: flex;
+}
+
+.partial-card-second p{
+}
+.rc-serial-number{
+  font-weight: bold;
+  padding: 20px 10px 20px 10px;
+  margin-bottom: 1px;
+  min-width: 30px;
+  max-width: 30%;
+  color: black;
+  background-color: #ffbf00;
+}
+
+.live-label{
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  padding: 2px 15px 2px 15px;
+}
+
+.point-result{
+ background-color: #434343;
+ color: white;
+ margin-right: 5px;
+ padding: 10px 10px 10px 10px;
+ border-radius: 4px;
+ min-width: 30px;
+ max-width: 30px;
+ text-align: center;
+}
+
+.partial-card-second{
+  
+  margin-top: 1%;
+}
+
+.dropdown-point-result{
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+}
+
+.card-header{
+  background-color: white;
+  display: flex;
+  font-size: 12px;
+  justify-content: flex-end;
+  height: 25px;
+}
+
+.card-header p{
+  padding-left: 8px;
+  margin-right: 3%;
+  
+}
+
+/* LOAD MORE CONTENT */
+
+.load-more{
+  margin-top: 5px;
+  border: 1px solid #434343;
+  min-width: 100%;
+  max-width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.load-more button{
+background-color: #434343;
+padding: 15px 50px 15px 50px;
+color: white;
+border: none;
+border-radius: 4px;
+font-size: 15px;
+font-weight: bold;
+}
+
+.load-more button:hover{
+  cursor: pointer;
+  background-color: #505050;
+}
+
+/* SECOND RESULT CHART */
+
+.live-now-second{
+  background-color: #F0C403;
+  color: white;
+  margin-right: 5px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* COLLAPSE CONTENT */
+
+.collapsible{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapse-content {
+  overflow: hidden;
+  background-color: white;
+}
+
+.collapse-header{
+  background-color: #434343;
+  color: white;
+  padding: 5px 0px 5px 5px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+/* VIRTUAL GAMES */
+
+/* SHOW CASE BUTTOM BAR */
+
+.showcase-buttom-bar{
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  background-color: #434343;
+  color: white;
+  justify-content: space-around;
+  text-transform: uppercase;
+  height: 40px;
+  align-items: center;
+  margin-top: -0.5%;
+}
+
+.game-search{
+  background-color: #434343;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 25rem;
+  color: white;
+  height: 30px;
+  font-size: 15px;
+}
+
+.bar-flag{
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.bar-flag img{
+  width: 40px;
+}
+
+.button-light{
+  text-decoration: none;
+  color: #ffbf00;
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 4px;
+}
+
+/* GAMES CARDS GRID */
+
+.game-cards{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(6 , 1fr);
+  gap: 50px;
+  
+}
+
+.game-cards img{
+  width: 150px;
+  height: 200px;
+  padding-top: 10px;
+}
+
+.game-cards div{
+  background-color: #434343;
+  color: white;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.starimg img{
+  max-width: 25px;
+  margin-right: 5px;
+}
+
+.highlights{
+  color: #F0C403;
+}
+
+.second{
+  min-width: 35%;
+  max-width: 35%;
+}
+
+.live-now-second{
+  font-size: 11px;
+  text-align: center;
+}
+
+/* LOGIN AND REGISTRATINO FORM */
+
+input[type="text"],
+input[type="password"],
+.dbutton,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+label,
+.dbutton {
+  margin-top: 1rem;
+}
+
+.dbutton {
+  padding: 0.5rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+  background-color: steelblue;
+}
+
+section {
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.4);
+}
+
+section h1,
+label,
+p{
+  color: #F0C403;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+
+.line a{
+  color: white;
 }
