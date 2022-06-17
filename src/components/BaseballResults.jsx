@@ -24,8 +24,8 @@ import Header from './Header';
                     <div className='result-chart-header'>LIVE NOW</div>
                     <div className='result-chart-subheader'>
                     <div className="football">
-                  <i><img src="https://img.icons8.com/material/24/undefined/football2--v1.png" /></i>
-                            <a href="/">Football</a>
+                  <i><img src='https://github.com/SAKSoomro/topbetsite/blob/main/public/img/soccer_ball_50px.png' /></i>
+                            <a href="/">Football modified</a>
                         </div>
                         <div className="tennis">
                             <i><img src="../img/tennis_ball_50px.png" alt="img" /></i>
