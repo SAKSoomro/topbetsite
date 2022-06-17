@@ -290,8 +290,11 @@ margin-top: 5px;
   margin-bottom: 1px;
   min-width: 30px;
   max-width: 30%;
-  color: black;
+  color: black !important;
   background-color: #ffbf00;
+}
+.rc-serial-number p{
+  color:black !important;
 }
 
 .live-label{
