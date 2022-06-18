@@ -18,17 +18,17 @@ export default function Footer(){
     </div>
     <div class="footer-copyright">
         <p>copyright &copy; 2022 Topbet.tn . All Rights Reserved</p>
-        <img src='../img/topbet logo.png' alt="img" />
+        <img src='https://drive.google.com/uc?export=download&id=149BciU6pG5JiXrvLWSZqx33R49VMW7va' alt="img" />
     </div>
     <div class="footer-social-links">
         <div class="plus">
-            <img src="../img/18 plus.png" alt="img" />
+            <img src="https://drive.google.com/uc?export=download&id=1H0IbhikdSAvX0dJ0pRRgjr2mTbSWjkim" alt="img" />
         </div>
         <div class="social-links">
-            <img src="../img/youtube.png" alt="" />
-            <img src="../img/instagram.png" alt="" />
-            <img className="whatsapp" src="../img/whatsapp.png" alt="" />
-            <img src="../img/facebook.png" alt="" />
+            <img src="https://drive.google.com/uc?export=download&id=1yR6WvuMu4yCdRtONkV-Oaqu_eWE7hAhs" alt="" />
+            <img src="https://drive.google.com/uc?export=download&id=1ybvZTQvjiwL9FkfZ_qFrajyb45chdG2T" alt="" />
+            <img className="whatsapp" src="https://drive.google.com/uc?export=download&id=1ybvZTQvjiwL9FkfZ_qFrajyb45chdG2T" alt="" />
+            <img src="https://drive.google.com/uc?export=download&id=15jM43Pr_V0K_uioKmyFxVdTeWsRzTC7D" alt="" />
         </div>
     </div>
 </div>

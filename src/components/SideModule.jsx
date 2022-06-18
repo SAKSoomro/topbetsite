@@ -8,12 +8,12 @@ export default function SideModule(){
                      <p>TOP LEAGUES</p>
                     </div>
                      <div class="list-items">
-                        <a href="#"><i class="avatar"><img src="../img/globe_80px.png" alt="" /></i> UEFA Champions League</a>
-                        <a href="#"><i class="avatar"><img src="../img/globe_80px.png" alt="" /></i> WC Qual, CONMEBOL</a>
-                        <a href="#"><i class="avatar"><img src="../img/globe_80px.png" alt="" /></i> Copa Libertadores</a>
-                        <a href="#"><i class="avatar"><img src="../img/germany_96px.png" alt="" /></i> Bundesliga</a>
-                        <a href="#"><i class="avatar"><img src="../img/france_96px.png" alt="" /></i> Ligue 1</a>
-                        <a href="#"><i class="avatar"><img src="../img/el_salvador_96px.png" alt="" /></i> Superliga</a>
+                        <a href="#"><i class="avatar"><img src="https://drive.google.com/uc?export=download&id=1_ow62utE85kjaehOtlAHSkkx7QX63_tz" alt="" /></i> UEFA Champions League</a>
+                        <a href="#"><i class="avatar"><img src="https://drive.google.com/uc?export=download&id=1_ow62utE85kjaehOtlAHSkkx7QX63_tz" alt="" /></i> WC Qual, CONMEBOL</a>
+                        <a href="#"><i class="avatar"><img src="https://drive.google.com/uc?export=download&id=1_ow62utE85kjaehOtlAHSkkx7QX63_tz" alt="" /></i> Copa Libertadores</a>
+                        <a href="#"><i class="avatar"><img src="https://drive.google.com/uc?export=download&id=1_ow62utE85kjaehOtlAHSkkx7QX63_tz" alt="" /></i> Bundesliga</a>
+                        <a href="#"><i class="avatar"><img src="https://drive.google.com/uc?export=download&id=1_ow62utE85kjaehOtlAHSkkx7QX63_tz" alt="" /></i> Ligue 1</a>
+                        <a href="#"><i class="avatar"><img src="https://drive.google.com/uc?export=download&id=1_ow62utE85kjaehOtlAHSkkx7QX63_tz" alt="" /></i> Superliga</a>
                     </div>
                 </div>
             </div>

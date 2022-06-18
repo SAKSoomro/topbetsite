@@ -9,7 +9,7 @@ import Showcase from './Showcase';
 import SideModule from './SideModule';
 import Footer from './Footer';
 import Header from './Header';
-import imgStar from '../img/star_32px.png'
+
 
  function TennisResultsData(){
 
@@ -51,7 +51,7 @@ import imgStar from '../img/star_32px.png'
         <div className='rc-serial-number'><p>{sNo}</p></div>
         <div className='partial-card-first first'>
             <div className='partial-card-up'>
-        <i className='starimg'><img src={imgStar} alt="img" /></i>
+        <i className='starimg'><img src='https://drive.google.com/uc?export=download&id=15MNp1AfWaGKb5S5JENIBKwpe6hxwIrL1' alt="img" /></i>
             <p className='live-label'>LIVE</p>
             <p className=''>{sixty}' | </p>
             {/* <i><img src="../img/star_26px.png" alt="img" /></i> */}
@@ -89,33 +89,34 @@ import imgStar from '../img/star_32px.png'
                     <div className='result-chart-header'>LIVE NOW</div>
                     <div className='result-chart-subheader'>
                     <div className="football">
-                            <i><img src="../img/soccer_ball_50px.png" alt="img" /></i>
+                    <i><img src='https://drive.google.com/uc?export=download&id=1kvEL-xsjQfkeB4swZqAou5MVCDg5rIsc' /></i>
                             <a href="/">Football</a>
                         </div>
                         <div className="tennis">
-                            <i><img src="../img/tennis_ball_50px.png" alt="img" /></i>
+                        <i><img src="https://drive.google.com/uc?export=download&id=1_Rzitp2QgeX4uvqbDtznBSFkmliZvv-c" alt="img" /></i>
                             <a href="/tennisresults"><span className='highlights'>Tennis</span></a>
                         </div>
                         <div className="basketball">
-                            <i><img src="../img/basketball_64px.png" alt="img" /></i>
+                            <i><img src="https://drive.google.com/uc?export=download&id=13rbf0NtCHU8hWh1Bw2uBK7Qiz8a5VRN6" alt="img" /></i>
                             <a href="/basketballresults">Basketball</a>
                         </div>
                         <div className="hockey">
-                            <i><img src="../img/puck_32px.png" alt="img" /></i>
+                            <i><img src="https://drive.google.com/uc?export=download&id=1VTMbR4zBXC5jNnQ9uCMxV4tlELcG9_Op" alt="img" /></i>
                             <a href="/hockeyresults">Hockey Sur Glace</a>
                         </div>
                         <div className="volleyball">
-                        <i><img src="../img/volleyball_32px.png" alt="" /></i>
+                        <i><img src="https://drive.google.com/uc?export=download&id=13ymJlbsDjTZWTfQkeRNufZFFpEN2tjbK" alt="" /></i>
                             <a href="/volleyballresults">Volleyball</a>
                         </div>
                         <div className="tennis-table">
-                            <i><img src="../img/tennis_racquet_50px.png" alt="img" /></i>
+                            <i><img src="https://drive.google.com/uc?export=download&id=1ibitdUeLwQ2lwnK14I3DQdEh8vUK4AxK" alt="img" /></i>
                             <a href="/tennistableresults">Tennis Table</a>
                         </div>
                         <div className="baseball">
-                            <i><img src="../img/beach_ball_64px.png" alt="" /></i>
-                            <a href="/baseball">Baseball</a>
+                            <i><img src="https://drive.google.com/uc?export=download&id=1V-uaLUQdw-Bsz8oM2uwyvQgyRIxwzmk3" alt="" /></i>
+                            <a href="/baseballresults">Baseball</a>
                         </div>
+                   
                     </div>
                     {/* CARD HEADER */}
                     <div className='card-header'>
@@ -132,12 +133,14 @@ import imgStar from '../img/star_32px.png'
                         <p>X2</p>
                     </div>
                     {/* CARDS CONTENT */}
+
                    <CardModule />
                    <CardModule />
                    <CardModule />
                    <CardModule />
 
                 </div>
+
 
                 
     )

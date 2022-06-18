@@ -1,5 +1,4 @@
 import '../index.css'
-import imgStar from '../img/star_32px.png'
 
 export default function CardModule(){
 
@@ -41,7 +40,7 @@ export default function CardModule(){
         <div className='rc-serial-number'><p>{sNo}</p></div>
         <div className='partial-card-first first'>
             <div className='partial-card-up'>
-        <i className='starimg'><img src={imgStar} alt="img" /></i>
+        <i className='starimg'><img src='https://drive.google.com/uc?export=download&id=15MNp1AfWaGKb5S5JENIBKwpe6hxwIrL1' alt="img" /></i> 
             <p className='live-label'>LIVE</p>
             <p className=''>{sixty}' | </p>
             {/* <i><img src="../img/star_26px.png" alt="img" /></i> */}
