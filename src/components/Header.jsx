@@ -15,8 +15,8 @@ export default function Header(){
         </div>
         <div class="cright-links">
             <ul>
-                <li><a class="join-button" href="/login">connect</a></li>
-                <li><a class="login-button" href="/register">register</a></li>
+                <li><a class="join-button" href="/">connect</a></li>
+                <li><a class="login-button" href="/">register</a></li>
             </ul>
         </div>
     </div>

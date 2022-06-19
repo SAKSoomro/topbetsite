@@ -19,9 +19,10 @@ import HockeySurGlaceResults from "./HockeySurGlaceResults";
 import VolleyballResults from "./Volleyball";
 import TennisTable from "./TennisTable";
 import BaseballResults from "./BaseballResults";
+import Register from "./Register";
+import Error from "./Error";
+import Login from "./Login";
 // import express from "express";
-import Login from "../Login";
-import Register from "../Register";
 
 export default function App() {
 
@@ -120,8 +121,9 @@ export default function App() {
             <Route path="/volleyballresults" element={<VolleyballResults />}/>
             <Route path="/tennistableresults" element={<TennisTable />}/>
             <Route path="/baseballresults" element={<BaseballResults />}/>
-            <Route path="/login" element={<Login />}/>
             <Route path="/register" element={<Register />}/>
+            <Route path="/error" element={<Error />}/>
+            <Route path="/login" element={<Login />}/>
           </Routes>
       </main>
     );
