@@ -659,3 +659,15 @@ form {
   font-weight: bold;
   margin-bottom: 5%;
 }
+
+.bottom h3{
+  color: red;
+}
+
+.error-page{
+  margin: 50px;
+  color: red;
+  padding: 10px;
+  border: 2px solid red;
+  width: 30%;
+}

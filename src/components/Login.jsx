@@ -3,11 +3,13 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { firebaseAuth } from "../firebase-config";
+import { Alert } from "bootstrap";
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const [show, setShow] = useState(true);
 
   const handleLogin = async () => {
     try {
@@ -16,8 +18,9 @@ export default function Login() {
         if (currentUser) navigate("/")
       });
     } catch (error) {
-    //   console.log(error.code);
       navigate('/error')
+       
+     
     }
   };
 

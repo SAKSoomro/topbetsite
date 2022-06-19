@@ -41,7 +41,9 @@ import {
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Password"
           />
+          
           <div className="bottom">
+          <h3>Password must be 6 charracters long</h3>
             <button onClick={handleSignIn}>Singup</button>
             <span>
               Already have an account? <Link to="/login">Login</Link>
