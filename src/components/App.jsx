@@ -22,6 +22,7 @@ import BaseballResults from "./BaseballResults";
 import Register from "./Register";
 import Error from "./Error";
 import Login from "./Login";
+import Blocked from "./Blocked";
 // import express from "express";
 
 export default function App() {
@@ -112,10 +113,10 @@ export default function App() {
       <main>
 
           <Routes>
-            <Route path="/loadmore" element={<MatchOdds />} />
-            <Route path="/virtualgames" element={<VirtualGames />} />
-            <Route path="/" element={<Home />} />
-            <Route path="/tennisresults" element={<TennisResults />}/>
+            {/* <Route path="/loadmore" element={<MatchOdds />} />
+            <Route path="/virtualgames" element={<VirtualGames />} /> */}
+            <Route path="/" element={<Blocked />} />
+            {/* <Route path="/tennisresults" element={<TennisResults />}/>
             <Route path="/basketballresults" element={<BasketballResults />}/>
             <Route path="/hockeyresults" element={<HockeySurGlaceResults />}/>
             <Route path="/volleyballresults" element={<VolleyballResults />}/>
@@ -123,7 +124,7 @@ export default function App() {
             <Route path="/baseballresults" element={<BaseballResults />}/>
             <Route path="/register" element={<Register />}/>
             <Route path="/error" element={<Error />}/>
-            <Route path="/login" element={<Login />}/>
+            <Route path="/login" element={<Login />}/> */}
           </Routes>
       </main>
     );
